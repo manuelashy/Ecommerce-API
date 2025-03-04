@@ -1,5 +1,10 @@
 export const addProduct = (req, res) => {
-  res.send("Product added!");
+  // Check if user has permission
+  // Upload the product image
+  // validate the product information
+  // Save product information in the database
+  // Return respond
+  res.json(req.body);
 };
 
 export const getProducts = (req, res) => {
